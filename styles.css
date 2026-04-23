@@ -73,10 +73,6 @@ a {
   font-weight: 600;
 }
 
-.footer-wrap li a {
-  color: #bce6fa;
-}
-
 .site-nav a:hover {
   color: var(--ink);
 }
@@ -400,6 +396,10 @@ h2 {
 }
 
 .copyright a {
+  color: #bce6fa;
+}
+
+.footer-wrap li a {
   color: #bce6fa;
 }
 
