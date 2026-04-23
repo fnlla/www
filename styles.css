@@ -73,10 +73,6 @@ a {
   font-weight: 600;
 }
 
-.site-nav a:hover {
-  color: var(--ink);
-}
-
 .btn {
   display: inline-flex;
   align-items: center;
@@ -401,6 +397,10 @@ h2 {
 
 .footer-wrap li a {
   color: #bce6fa;
+}
+
+.site-nav a:hover {
+  color: var(--ink);
 }
 
 .footer-wrap ul {
