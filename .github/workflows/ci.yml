@@ -1,0 +1,26 @@
+﻿name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate HTML structure
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install --no-audit --no-fund html-validate@9 >/dev/null 2>&1
+          npx html-validate index.html
+      - name: Check CSS parseability
+        run: |
+          npm install --no-audit --no-fund stylelint stylelint-config-standard@36 >/dev/null 2>&1
+          cat > .stylelintrc.json <<'JSON'
+          {
+            "extends": "stylelint-config-standard"
+          }
+          JSON
+          npx stylelint styles.css

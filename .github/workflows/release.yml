@@ -1,0 +1,14 @@
+﻿name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    uses: fnlla/.github/.github/workflows/reusable-release.yml@main

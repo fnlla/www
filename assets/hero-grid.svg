@@ -1,0 +1,80 @@
+﻿<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1520" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.45" stop-color="#0B2035"/>
+      <stop offset="1" stop-color="#0B2940"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 250) rotate(140.2) scale(580 430)">
+      <stop stop-color="#67E8F9" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="300" y1="80" x2="1370" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+
+  <g opacity="0.22" stroke="#7DD3FC" stroke-width="1.5">
+    <path d="M140 160H1460"/>
+    <path d="M140 260H1460"/>
+    <path d="M140 360H1460"/>
+    <path d="M140 460H1460"/>
+    <path d="M140 560H1460"/>
+    <path d="M140 660H1460"/>
+    <path d="M140 760H1460"/>
+    <path d="M260 80V820"/>
+    <path d="M460 80V820"/>
+    <path d="M660 80V820"/>
+    <path d="M860 80V820"/>
+    <path d="M1060 80V820"/>
+    <path d="M1260 80V820"/>
+    <path d="M1460 80V820"/>
+  </g>
+
+  <g fill="#082F49" stroke="#22D3EE" stroke-width="2.5">
+    <rect x="860" y="150" width="280" height="86" rx="16"/>
+    <rect x="1180" y="150" width="280" height="86" rx="16"/>
+    <rect x="860" y="290" width="280" height="86" rx="16"/>
+    <rect x="1180" y="290" width="280" height="86" rx="16"/>
+    <rect x="860" y="430" width="280" height="86" rx="16"/>
+    <rect x="1180" y="430" width="280" height="86" rx="16"/>
+    <rect x="860" y="570" width="280" height="86" rx="16"/>
+    <rect x="1180" y="570" width="280" height="86" rx="16"/>
+  </g>
+
+  <g stroke="url(#line)" stroke-width="4" opacity="0.9">
+    <path d="M430 190H860"/>
+    <path d="M430 330H860"/>
+    <path d="M430 470H860"/>
+    <path d="M430 610H860"/>
+    <path d="M1140 190H1180"/>
+    <path d="M1140 330H1180"/>
+    <path d="M1140 470H1180"/>
+    <path d="M1140 610H1180"/>
+  </g>
+
+  <g fill="#A5F3FC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+    <text x="1000" y="205">Framework</text>
+    <text x="1320" y="205">Packages</text>
+    <text x="1000" y="345">Docs</text>
+    <text x="1320" y="345">Installer</text>
+    <text x="1000" y="485">Quality</text>
+    <text x="1320" y="485">Dev Env</text>
+    <text x="1000" y="625">VS Code</text>
+    <text x="1320" y="625">Examples</text>
+  </g>
+
+  <g>
+    <rect x="220" y="220" width="190" height="190" rx="42" fill="#0F172A"/>
+    <path d="M272 262H358V289H300V315H345V342H300V370H272V262Z" fill="#67E8F9"/>
+    <rect x="340" y="262" width="28" height="108" rx="14" fill="#E2E8F0"/>
+  </g>
+
+  <text x="220" y="470" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="700">FNLLA</text>
+  <text x="220" y="520" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="30">Enterprise PHP Platform</text>
+  <text x="220" y="560" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="24">Architecture. Governance. Delivery.</text>
+</svg>
