@@ -7,6 +7,13 @@ Official FNLLA website repository.
 `fnlla/www` hosts the public platform website, product positioning, ecosystem entry points,
 and release communication layer.
 
+## Ownership
+
+FNLLA website and brand communication are maintained by TechAyo.
+
+- Copyright: TechAyo
+- Website: https://techayo.co.uk
+
 ## Local Preview
 
 Open `index.html` directly or run a static server:

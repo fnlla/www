@@ -295,6 +295,41 @@ h2 {
   color: #082538;
 }
 
+.behind {
+  background: linear-gradient(180deg, #e4f2fb, #f4fbff);
+  color: #082538;
+}
+
+.behind-wrap {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.behind-wrap p {
+  color: #244a60;
+  line-height: 1.75;
+}
+
+.behind-card {
+  border-radius: var(--radius);
+  border: 1px solid #acd3e7;
+  background: #f8fdff;
+  padding: 1.2rem;
+  display: grid;
+  align-content: start;
+  gap: 0.8rem;
+}
+
+.behind-card h3 {
+  margin: 0;
+}
+
+.behind-card p {
+  margin: 0;
+}
+
 .gov-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -359,6 +394,15 @@ h2 {
   color: var(--ink-muted);
 }
 
+.copyright {
+  margin-top: 0.45rem;
+  font-size: 0.92rem;
+}
+
+.copyright a {
+  color: #bce6fa;
+}
+
 .footer-wrap ul {
   margin: 0;
   padding: 0;
@@ -390,6 +434,10 @@ h2 {
 
   .gov-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .behind-wrap {
+    grid-template-columns: 1fr;
   }
 }
 
